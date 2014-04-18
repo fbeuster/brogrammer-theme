@@ -23,7 +23,7 @@
         "max_margin_trim": 0,
         "hit_test_level": 0,
         "layer0.texture": "",
-        "layer0.tint": [51,51,51],
+        "layer0.tint": [34,34,34],  //  DEFAULT    "layer0.tint": [51,51,51],
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 0.7,
         "layer1.texture": "Theme - Brogrammer/Brogrammer/tab-bar@2x.png",
@@ -39,6 +39,7 @@
     {
         "class": "tab_control",
         "attributes": ["hover"],
+        "layer0.tint": [17,17,17], // not set in default
         "layer0.texture": "",
         "layer0.opacity": 0.5
     },
@@ -733,9 +734,9 @@
         "class": "text_line_control",
         "layer0.texture": "",
         // "layer0.tint": [118, 255, 205],
-        "layer0.tint": [230, 230, 230],
+        "layer0.tint": [17, 17, 17], // DEFAULT "layer0.tint": [230, 230, 230],
         "layer0.opacity": 1,
-        "content_margin": [5,7,0,5]
+        "content_margin": [5,7,5,5]  // DEFAULT "content_margin": [5,7,0,5]
     },
 
 //
@@ -768,7 +769,7 @@
 
     {
         "class": "quick_panel",
-        "row_padding": 15,
+        "row_padding": [15, 5], //  DEFAULT    "row_padding": 15,
         "layer0.tint": [17,17,17],
         "layer0.opacity": 1,
         "dark_content": true
@@ -819,7 +820,7 @@
     {
         "class": "mini_quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [17,17,17],
+        "layer0.tint": [34,34,34],  // DEFAULT  "layer0.tint": [17,17,17],
         "layer0.opacity": 1
     },
     {
@@ -837,7 +838,7 @@
         "class": "popup_control",
         // "content_margin": [13,13],
         "content_margin": [0,0],
-        "layer0.tint": [17,17,17],
+        "layer0.tint": [34,34,34],  // DEFAULT  "layer0.tint": [17,17,17],
         "layer0.opacity": 1
     },
     {
