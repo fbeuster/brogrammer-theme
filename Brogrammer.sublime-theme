@@ -732,10 +732,8 @@
     // Text input field item
     {
         "class": "text_line_control",
-        "layer0.texture": "",
-        // "layer0.tint": [118, 255, 205],
         "layer0.tint": [17, 17, 17], // DEFAULT "layer0.tint": [230, 230, 230],
-        "layer0.opacity": 1,
+        "layer0.opacity": 1.0,
         "content_margin": [5,7,5,5]  // DEFAULT "content_margin": [5,7,0,5]
     },
 
@@ -746,7 +744,7 @@
     // Bottom panel background
     {
         "class": "panel_control",
-        "layer0.texture": "",
+        //"layer0.texture": "",
         "layer0.inner_margin": [10, 1],
         "layer0.opacity": 1,
         "layer0.tint": [17,17,17],
